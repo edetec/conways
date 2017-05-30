@@ -2,6 +2,6 @@ version: "2"
 services:
   game:
     build: .
-    command: python -m unittest test_game
+    command: python sample.py
     volumes:
       - .:/usr/src/app
